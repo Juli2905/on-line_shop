@@ -181,27 +181,28 @@ section{
         .card{
             width: 31%;
             background-color: #ddd7d7;
+           
            .cover{
             @include cover(100%);
             img{
-                width: 50%;
-                height: 50%;
-                top:25%;
-                left: 25%;
+                width: 60%;
+                height: 60%;
+                top:20%;
+                left: 20%;
                 position: absolute;
-                z-index: 150; 
+                z-index: 2; 
                 
             }
             .ellipse{
-                //display: flex;
-                //justify-content: center;
-                //align-items: center;
-                width: 70px;
-                height: 70px;
-                color: $white;
+               
+                width: 200px;
+                height: 200px;
+                background-color: $white;
                 border-radius: 100%;
                 position: absolute;
-                z-index: 100;
+                top: 22%;
+                left: 22%;
+                z-index: 1;
             }
            }
         }
