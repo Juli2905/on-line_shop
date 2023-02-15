@@ -1,0 +1,317 @@
+a {
+  text-decoration: none;
+}
+
+p, h1, h2, h3, h4, h5, h6, body {
+  margin: 0;
+}
+
+.btn {
+  border: none;
+  background-color: transparent;
+}
+
+input[type=text] {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.products .wrapper .container, .category .wrapper .container, .main .wrapper, header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn.orange {
+  border: 1px solid #F44e31;
+  color: #F44e31;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  padding: 10px 0;
+  background-color: transparent;
+  font-size: 14px;
+  transition: 0.5s;
+  width: 25%;
+  border-radius: 5px;
+}
+.btn.orange:hover {
+  border: 1px solid #F44e31;
+  color: #F44e31;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  padding: 10px 0;
+  background-color: transparent;
+  font-size: 14px;
+  transition: 0.5s;
+  width: 25%;
+  border-radius: 5px;
+  background-color: #F44e31;
+  color: #fff;
+  cursor: pointer;
+}
+.btn.blue {
+  border: 1px solid #0085FF;
+  color: #0085FF;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  padding: 10px 0;
+  background-color: transparent;
+  font-size: 14px;
+  transition: 0.5s;
+  width: 25%;
+  border-radius: 5px;
+}
+.btn.blue:hover {
+  border: 1px solid #0085FF;
+  color: #0085FF;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  padding: 10px 0;
+  background-color: transparent;
+  font-size: 14px;
+  transition: 0.5s;
+  width: 25%;
+  border-radius: 5px;
+  background-color: #0085FF;
+  color: #fff;
+  cursor: pointer;
+}
+.btn.white {
+  border: 1px solid #fff;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  padding: 10px 0;
+  background-color: transparent;
+  font-size: 14px;
+  transition: 0.5s;
+  width: 25%;
+  border-radius: 5px;
+}
+.btn.white:hover {
+  border: 1px solid #fff;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  padding: 10px 0;
+  background-color: transparent;
+  font-size: 14px;
+  transition: 0.5s;
+  width: 25%;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #fff;
+  cursor: pointer;
+  color: #F44e31;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 25px 0;
+}
+header .wrapper .logo {
+  display: flex;
+  align-items: baseline;
+}
+header .wrapper .logo .ellipse {
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background-color: #F44e31;
+  margin-left: 5px;
+}
+header .wrapper .logo h2 {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 32px;
+}
+header .wrapper .nav-container {
+  display: flex;
+  align-items: center;
+}
+header .wrapper .nav-container .nav-links a {
+  text-transform: uppercase;
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin-right: 20px;
+}
+header .wrapper .nav-container .nav-links a:hover {
+  cursor: pointer;
+  color: #F44e31;
+  transition: 0.4s;
+}
+header .wrapper .nav-container .nav-icons {
+  cursor: pointer;
+  padding-left: 20px;
+  border-left: 1px solid #939393;
+}
+header .wrapper .nav-container .nav-icons svg:first-child {
+  margin-right: 10px;
+}
+
+section {
+  margin-bottom: 80px;
+}
+
+.main {
+  background-color: #F44e31;
+}
+.main .wrapper .main-block {
+  width: 47%;
+}
+.main .wrapper .main-block h1 {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 48px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.main .wrapper .main-block .cover {
+  position: relative;
+  width: 100%;
+  padding-top: 70%;
+}
+.main .wrapper .main-block .cover img, .main .wrapper .main-block .cover .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.main .wrapper .main-block .cover img {
+  transform: scaleX(-1);
+}
+
+.category .wrapper .container:first-child {
+  margin-bottom: 3.5%;
+}
+.category .wrapper .container .product-type {
+  width: 31%;
+  border: 1px solid transparent;
+  transition: 0.4s;
+}
+.category .wrapper .container .product-type.big {
+  width: 65.5%;
+}
+.category .wrapper .container .product-type.big .cover {
+  position: relative;
+  width: 100%;
+  padding-top: 47.5%;
+}
+.category .wrapper .container .product-type.big .cover img, .category .wrapper .container .product-type.big .cover .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.category .wrapper .container .product-type .cover {
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+}
+.category .wrapper .container .product-type .cover img, .category .wrapper .container .product-type .cover .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.category .wrapper .container .product-type .cover h2 {
+  position: absolute;
+  z-index: 1;
+  bottom: 45%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 32px;
+  text-align: center;
+  width: 100%;
+  text-shadow: 0 0 0 transparent;
+  transition: 0.4s;
+}
+.category .wrapper .container .product-type .cover img {
+  filter: none;
+  transition: 0.4s;
+}
+.category .wrapper .container .product-type:hover {
+  cursor: pointer;
+  border: 1px solid #F44e31;
+}
+.category .wrapper .container .product-type:hover h2 {
+  text-shadow: 3px 3px #F44e31;
+}
+.category .wrapper .container .product-type:hover img {
+  filter: grayscale(1);
+}
+
+.products .wrapper h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.products .wrapper .nav-products {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.products .wrapper .nav-products a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin-right: 20px;
+  margin-bottom: 25px;
+  color: #202020;
+}
+.products .wrapper .nav-products a:hover {
+  cursor: pointer;
+  color: #F44e31;
+  transition: 0.4s;
+}
+.products .wrapper .container .card {
+  width: 31%;
+  background-color: #ddd7d7;
+}
+.products .wrapper .container .card .cover {
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+}
+.products .wrapper .container .card .cover img, .products .wrapper .container .card .cover .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.products .wrapper .container .card .cover img {
+  width: 50%;
+  height: 50%;
+  top: 25%;
+  left: 25%;
+  position: absolute;
+  z-index: 150;
+}
+.products .wrapper .container .card .cover .ellipse {
+  width: 70px;
+  height: 70px;
+  color: #fff;
+  border-radius: 100%;
+  position: absolute;
+  z-index: 100;
+}
+
+/*# sourceMappingURL=style.css.map */
