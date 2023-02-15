@@ -180,10 +180,23 @@ section{
         @extend %container;
         .card{
             width: 31%;
-            background-color: #ddd7d7;
-           
+            
+           h3{
+            @include font(600);
+            text-align: center;
+            margin: 10px 0;
+            &:hover{
+                cursor: pointer;
+                color: #F44e31;
+            }
+           }
+           p{
+            @include font(400);
+            text-align: center;
+           }
            .cover{
             @include cover(100%);
+            background-color: #ddd7d7;
             img{
                 width: 60%;
                 height: 60%;
@@ -203,6 +216,9 @@ section{
                 top: 22%;
                 left: 22%;
                 z-index: 1;
+            }
+            &:hover{
+                cursor: pointer;
             }
            }
         }

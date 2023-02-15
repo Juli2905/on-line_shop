@@ -282,12 +282,27 @@ section {
 }
 .products .wrapper .container .card {
   width: 31%;
-  background-color: #ddd7d7;
+}
+.products .wrapper .container .card h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  margin: 10px 0;
+}
+.products .wrapper .container .card h3:hover {
+  cursor: pointer;
+  color: #F44e31;
+}
+.products .wrapper .container .card p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-align: center;
 }
 .products .wrapper .container .card .cover {
   position: relative;
   width: 100%;
   padding-top: 100%;
+  background-color: #ddd7d7;
 }
 .products .wrapper .container .card .cover img, .products .wrapper .container .card .cover .content {
   position: absolute;
@@ -314,6 +329,9 @@ section {
   top: 22%;
   left: 22%;
   z-index: 1;
+}
+.products .wrapper .container .card .cover:hover {
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */
