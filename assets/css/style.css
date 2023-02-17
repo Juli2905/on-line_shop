@@ -413,6 +413,9 @@ footer .info .wrapper .title p {
 footer .info .wrapper .title .icons svg {
   margin-right: 10px;
 }
+footer .info .wrapper .title .icons:hover {
+  cursor: pointer;
+}
 footer .info .wrapper .block {
   width: 30%;
 }
