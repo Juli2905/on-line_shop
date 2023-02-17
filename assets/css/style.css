@@ -17,7 +17,7 @@ input[type=text] {
   background-color: transparent;
 }
 
-.products .wrapper .container, .category .wrapper .container, .main .wrapper, header .wrapper {
+footer .info .wrapper, .products .wrapper .container, .category .wrapper .container, .main .wrapper, header .wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -377,27 +377,82 @@ footer .wallpaper .cover img, footer .wallpaper .cover .content {
   height: 100%;
   object-fit: cover;
 }
-footer .contacts .wrapper .title {
+footer .info {
+  margin-bottom: 20px;
+}
+footer .info .wrapper {
+  align-items: flex-start;
+}
+footer .info .wrapper .title {
   width: 30%;
   display: flex;
   flex-direction: column;
 }
-footer .contacts .wrapper .title .logo {
+footer .info .wrapper .title .logo {
   display: flex;
   align-items: baseline;
+  margin-bottom: 15px;
 }
-footer .contacts .wrapper .title .logo .ellipse {
+footer .info .wrapper .title .logo .ellipse {
   width: 8px;
   height: 8px;
   border-radius: 100%;
   background-color: #F44e31;
   margin-left: 5px;
 }
-footer .contacts .wrapper .title .logo h2 {
+footer .info .wrapper .title .logo h2 {
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
   font-size: 32px;
+}
+footer .info .wrapper .title p {
+  width: 83%;
+  margin-bottom: 30px;
+}
+footer .info .wrapper .title .icons svg {
+  margin-right: 10px;
+}
+footer .info .wrapper .block {
+  width: 30%;
+}
+footer .info .wrapper .block h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+footer .info .wrapper .block .container {
+  display: flex;
+}
+footer .info .wrapper .block .container .box {
+  width: 50%;
+}
+footer .info .wrapper .block .container .box p {
+  margin-bottom: 10px;
+}
+footer .info .wrapper .block .container .box p:hover {
+  cursor: pointer;
+}
+footer .info .wrapper .contacts {
+  width: 30%;
+}
+footer .info .wrapper .contacts h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+footer .info .wrapper .contacts ul {
+  list-style: none;
+  margin: 20px 0;
+  padding: 0;
+}
+footer .info .wrapper .contacts ul li .address {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+footer .info .wrapper .contacts ul li .address p {
+  margin-left: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
