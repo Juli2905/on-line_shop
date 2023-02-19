@@ -17,6 +17,22 @@ input[type=text] {
   background-color: transparent;
 }
 
+#black {
+  background-color: #000;
+}
+
+#orange {
+  background-color: #F44e31;
+}
+
+#pink {
+  background-color: #d81e7e;
+}
+
+#blue {
+  background-color: #0085FF;
+}
+
 .products .wrapper h3 .container, .product .wrapper .product-info .options, .product .wrapper .product-info .name, .product .wrapper .product-photos .container, .product .wrapper, footer .info .wrapper, .products .wrapper .container, .category .wrapper .container, .main .wrapper, header .wrapper {
   display: flex;
   justify-content: space-between;

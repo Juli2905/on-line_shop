@@ -9,6 +9,19 @@ $blue:#0085FF;
 $gray: #939393;
 $lightgray: #e3e3e3;
 
+#black{
+    background-color: $black;
+}
+#orange{
+    background-color: $orange;
+}
+#pink{
+    background-color: $pink;
+}
+#blue{
+    background-color: $blue;
+}
+
 @mixin font($size){
     font-family: 'Montserrat', sans-serif;
     font-weight: $size;
