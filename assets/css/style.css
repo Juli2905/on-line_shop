@@ -484,6 +484,7 @@ footer .info .wrapper .block .container .box p:hover {
 }
 footer .info .wrapper .contacts {
   width: 30%;
+  margin-bottom: 20px;
 }
 footer .info .wrapper .contacts h3 {
   font-family: "Montserrat", sans-serif;
@@ -502,6 +503,14 @@ footer .info .wrapper .contacts ul li .address {
 }
 footer .info .wrapper .contacts ul li .address p {
   margin-left: 10px;
+}
+footer .text {
+  border-top: 1px solid #e3e3e3;
+}
+footer .text p {
+  margin: 10px 0;
+  text-align: center;
+  color: #939393;
 }
 
 .product .wrapper .product-photos {
@@ -846,6 +855,7 @@ footer .info .wrapper .block .container .box p:hover {
 }
 footer .info .wrapper .contacts {
   width: 30%;
+  margin-bottom: 20px;
 }
 footer .info .wrapper .contacts h3 {
   font-family: "Montserrat", sans-serif;
@@ -864,6 +874,14 @@ footer .info .wrapper .contacts ul li .address {
 }
 footer .info .wrapper .contacts ul li .address p {
   margin-left: 10px;
+}
+footer .text {
+  border-top: 1px solid #e3e3e3;
+}
+footer .text p {
+  margin: 10px 0;
+  text-align: center;
+  color: #939393;
 }
 
 /*# sourceMappingURL=style.css.map */
