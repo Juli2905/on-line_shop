@@ -296,6 +296,9 @@ section {
   color: #F44e31;
   transition: 0.4s;
 }
+.products .wrapper .container {
+  margin-bottom: 40px;
+}
 .products .wrapper .container .card {
   width: 31%;
 }
@@ -348,6 +351,12 @@ section {
 }
 .products .wrapper .container .card .cover:hover {
   cursor: pointer;
+}
+.products .wrapper .btn.orange {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .page-title {
