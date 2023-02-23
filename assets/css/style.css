@@ -33,7 +33,7 @@ input[type=text] {
   background-color: #0085FF;
 }
 
-.products .wrapper h3 .container, .product .wrapper .product-info .options, .product .wrapper .product-info .name, .product .wrapper .product-photos .container, .product .wrapper, footer .info .wrapper, .products .wrapper .container, .category .wrapper .container, .main .wrapper, header .wrapper {
+.basket-total .wrapper .check-total .container, .products .wrapper h3 .container, .product .wrapper .product-info .options, .product .wrapper .product-info .name, .product .wrapper .product-photos .container, .product .wrapper, footer .info .wrapper, header .wrapper, .cards .wrapper .container, .products .wrapper .container, .category .wrapper .container, .main .wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -125,51 +125,6 @@ input[type=text] {
 .wrapper {
   max-width: 1200px;
   margin: 0 auto;
-}
-
-header {
-  padding: 25px 0;
-}
-header .wrapper .logo {
-  display: flex;
-  align-items: baseline;
-}
-header .wrapper .logo .ellipse {
-  width: 8px;
-  height: 8px;
-  border-radius: 100%;
-  background-color: #F44e31;
-  margin-left: 5px;
-}
-header .wrapper .logo h2 {
-  text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 900;
-  font-size: 32px;
-}
-header .wrapper .nav-container {
-  display: flex;
-  align-items: center;
-}
-header .wrapper .nav-container .nav-links a {
-  text-transform: uppercase;
-  color: #000;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  margin-right: 20px;
-}
-header .wrapper .nav-container .nav-links a:hover {
-  cursor: pointer;
-  color: #F44e31;
-  transition: 0.4s;
-}
-header .wrapper .nav-container .nav-icons {
-  cursor: pointer;
-  padding-left: 20px;
-  border-left: 1px solid #939393;
-}
-header .wrapper .nav-container .nav-icons svg:first-child {
-  margin-right: 10px;
 }
 
 section {
@@ -299,31 +254,31 @@ section {
 .products .wrapper .container {
   margin-bottom: 40px;
 }
-.products .wrapper .container .card {
+.products .wrapper .card {
   width: 31%;
 }
-.products .wrapper .container .card h3 {
+.products .wrapper .card h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   text-align: center;
   margin: 10px 0;
 }
-.products .wrapper .container .card h3:hover {
+.products .wrapper .card h3:hover {
   cursor: pointer;
   color: #F44e31;
 }
-.products .wrapper .container .card p {
+.products .wrapper .card p {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   text-align: center;
 }
-.products .wrapper .container .card .cover {
+.products .wrapper .card .cover {
   position: relative;
   width: 100%;
   padding-top: 110%;
   background-color: #ddd7d7;
 }
-.products .wrapper .container .card .cover img, .products .wrapper .container .card .cover .content {
+.products .wrapper .card .cover img, .products .wrapper .card .cover .content {
   position: absolute;
   top: 0;
   left: 0;
@@ -331,7 +286,7 @@ section {
   height: 100%;
   object-fit: cover;
 }
-.products .wrapper .container .card .cover img {
+.products .wrapper .card .cover img {
   width: 60%;
   height: 60%;
   top: 20%;
@@ -339,7 +294,7 @@ section {
   position: absolute;
   z-index: 2;
 }
-.products .wrapper .container .card .cover .ellipse {
+.products .wrapper .card .cover .ellipse {
   width: 200px;
   height: 200px;
   background-color: #fff;
@@ -349,7 +304,7 @@ section {
   left: 22%;
   z-index: 1;
 }
-.products .wrapper .container .card .cover:hover {
+.products .wrapper .card .cover:hover {
   cursor: pointer;
 }
 .products .wrapper .btn.orange {
@@ -387,6 +342,100 @@ h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   text-transform: capitalize;
+}
+
+.card {
+  width: 30%;
+}
+.card .cover {
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+  background-color: #e3e3e3;
+}
+.card .cover img, .card .cover .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card .cover img {
+  object-fit: contain;
+  transform: scale(0.7);
+  z-index: 2;
+}
+.card .cover .circle {
+  width: 60%;
+  height: 60%;
+  border-radius: 100%;
+  background-color: #fff;
+  position: absolute;
+  z-index: 1;
+  top: 20%;
+  left: 20%;
+}
+.card-content {
+  margin-top: 25px;
+}
+.card-content h4, .card-content p {
+  text-align: center;
+}
+.card-content h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.card-content p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin-top: 8px;
+}
+
+header {
+  padding: 25px 0;
+}
+header .wrapper .logo {
+  display: flex;
+  align-items: baseline;
+}
+header .wrapper .logo .ellipse {
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background-color: #F44e31;
+  margin-left: 5px;
+}
+header .wrapper .logo h2 {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 32px;
+}
+header .wrapper .nav-container {
+  display: flex;
+  align-items: center;
+}
+header .wrapper .nav-container .nav-links a {
+  text-transform: uppercase;
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin-right: 20px;
+}
+header .wrapper .nav-container .nav-links a:hover {
+  cursor: pointer;
+  color: #F44e31;
+  transition: 0.4s;
+}
+header .wrapper .nav-container .nav-icons {
+  cursor: pointer;
+  padding-left: 20px;
+  border-left: 1px solid #939393;
+}
+header .wrapper .nav-container .nav-icons svg:first-child {
+  margin-right: 10px;
 }
 
 footer .email {
@@ -614,13 +663,39 @@ footer .text p {
   align-items: center;
   margin-bottom: 70px;
 }
-.product .wrapper .product-info .card .counter-container .counter {
+.product .wrapper .product-info .to-basket {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 20px;
+}
+.product .wrapper .product-info .to-basket .heart svg {
+  padding: 11px;
+  border: 1px solid #939393;
+  border-radius: 6px;
+}
+.product .wrapper .note {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.product .wrapper .note .share, .product .wrapper .note .categories, .product .wrapper .note .tags {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.product .wrapper .note .share p, .product .wrapper .note .categories p, .product .wrapper .note .tags p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.counter {
   display: flex;
   align-items: center;
   border: 1px solid #939393;
   border-radius: 5px;
 }
-.product .wrapper .product-info .card .counter-container .counter .btn {
+.counter .btn {
   padding: 6px 12px;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
@@ -628,47 +703,22 @@ footer .text p {
   border-radius: 4px;
   transition: 0.4s;
 }
-.product .wrapper .product-info .card .counter-container .counter .btn:hover {
+.counter .btn:hover {
   background-color: #F44e31;
   color: #fff;
   cursor: pointer;
 }
-.product .wrapper .product-info .card .counter-container .counter .minus {
+.counter .minus {
   border-radius: 4px 0 0 4px;
 }
-.product .wrapper .product-info .card .counter-container .counter .plus {
+.counter .plus {
   border-radius: 0 4px 4px 0;
 }
-.product .wrapper .product-info .card .counter-container .counter .count {
+.counter .count {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   width: 40px;
   text-align: center;
-}
-.product .wrapper .product-info .card .to-basket {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-start;
-  gap: 20px;
-}
-.product .wrapper .product-info .card .to-basket .heart svg {
-  padding: 11px;
-  border: 1px solid #939393;
-  border-radius: 6px;
-}
-.product .wrapper .product-info .note {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-.product .wrapper .product-info .note .share, .product .wrapper .product-info .note .categories, .product .wrapper .product-info .note .tags {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-}
-.product .wrapper .product-info .note .share p, .product .wrapper .product-info .note .categories p, .product .wrapper .product-info .note .tags p {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
 }
 
 .text .wrapper {
@@ -891,6 +941,122 @@ footer .text p {
   margin: 10px 0;
   text-align: center;
   color: #939393;
+}
+
+.shopping-cart .wrapper {
+  border: 1px solid #939393;
+}
+.shopping-cart .wrapper #first {
+  width: 45%;
+}
+.shopping-cart .wrapper #second, .shopping-cart .wrapper #third, .shopping-cart .wrapper #forth {
+  width: 15%;
+}
+.shopping-cart .wrapper #fifth {
+  width: 10%;
+}
+.shopping-cart .wrapper p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #404040;
+  text-align: center;
+  text-transform: capitalize;
+}
+.shopping-cart .wrapper .basket-name {
+  display: flex;
+  align-items: center;
+  padding: 25px 0;
+  border-bottom: 1px solid #939393;
+}
+.shopping-cart .wrapper .basket-content {
+  padding: 25px 0;
+}
+.shopping-cart .wrapper .basket-content .basket-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.shopping-cart .wrapper .basket-content .basket-item:last-child {
+  margin-bottom: 0;
+}
+.shopping-cart .wrapper .basket-content .basket-item #delete {
+  transition: 0.4s;
+  color: #000;
+  font-weight: 700;
+}
+.shopping-cart .wrapper .basket-content .basket-item #delete:hover {
+  color: #F44e31;
+  cursor: pointer;
+}
+.shopping-cart .wrapper .basket-content .basket-item #first {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.shopping-cart .wrapper .basket-content .basket-item #first p {
+  text-align: start;
+}
+.shopping-cart .wrapper .basket-content .basket-item #first p.size {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.shopping-cart .wrapper .basket-content .basket-item #first .settings {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 10px;
+}
+.shopping-cart .wrapper .basket-content .basket-item #first .settings .ellipse {
+  width: 14px;
+  height: 14px;
+  border-radius: 100%;
+}
+.shopping-cart .wrapper .basket-content .basket-item #third {
+  display: flex;
+  justify-content: center;
+}
+
+.basket-total .wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: flex-end;
+}
+.basket-total .wrapper .check-total {
+  width: 35%;
+  padding: 30px 20px;
+  box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.1);
+}
+.basket-total .wrapper .check-total h3 {
+  margin-bottom: 20px;
+}
+.basket-total .wrapper .check-total .container {
+  margin-bottom: 15px;
+}
+.basket-total .wrapper .check-total .container .title-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.basket-total .wrapper .check-total .container .value-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.basket-total .wrapper .check-total .container:last-child {
+  margin-bottom: 0;
+  padding-top: 20px;
+  border-top: 1px solid #939393;
+}
+.basket-total .wrapper .check-total .calculate {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
+.basket-total .wrapper .btn.orange {
+  width: 15%;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -83,11 +83,12 @@ $lightgray: #e3e3e3;
     }
 }
 
+
 .wrapper{
     max-width: 1200px;
     margin: 0 auto;
 }
-@import 'header';
+
 section{
     margin-bottom: 80px;
 }
@@ -192,50 +193,51 @@ section{
     .container{
         @extend %container;
         margin-bottom: 40px;
-        .card{
-            width: 31%;
-            
-           h3{
-            @include font(600);
-            text-align: center;
-            margin: 10px 0;
-            &:hover{
-                cursor: pointer;
-                color: #F44e31;
-            }
-           }
-           p{
-            @include font(400);
-            text-align: center;
-           }
-           .cover{
-            @include cover(110%);
-            background-color: #ddd7d7;
-            img{
-                width: 60%;
-                height: 60%;
-                top:20%;
-                left: 20%;
-                position: absolute;
-                z-index: 2; 
-                
-            }
-            .ellipse{
-               
-                width: 200px;
-                height: 200px;
-                background-color: $white;
-                border-radius: 100%;
-                position: absolute;
-                top: 22%;
-                left: 22%;
-                z-index: 1;
-            }
-            &:hover{
-                cursor: pointer;
-            }
-           }
+       
+    }
+    .card{
+        width: 31%;
+        
+       h3{
+        @include font(600);
+        text-align: center;
+        margin: 10px 0;
+        &:hover{
+            cursor: pointer;
+            color: #F44e31;
         }
+       }
+       p{
+        @include font(400);
+        text-align: center;
+       }
+       .cover{
+        @include cover(110%);
+        background-color: #ddd7d7;
+        img{
+            width: 60%;
+            height: 60%;
+            top:20%;
+            left: 20%;
+            position: absolute;
+            z-index: 2; 
+            
+        }
+        .ellipse{
+           
+            width: 200px;
+            height: 200px;
+            background-color: $white;
+            border-radius: 100%;
+            position: absolute;
+            top: 22%;
+            left: 22%;
+            z-index: 1;
+        }
+        &:hover{
+            cursor: pointer;
+        }
+       }
     }
     .btn.orange{
         margin: 0 auto;
@@ -272,5 +274,51 @@ h3{
     @include font(700);
     text-transform: capitalize;
 }
+.cards{
+    .wrapper{
+        .container{
+            @extend %container;
+            
+        }
+    }
+}
+.card{
+    width: 30%;
+    .cover{
+        @include cover(100%);
+        background-color: $lightgray;
+        img{
+            object-fit: contain;
+            transform: scale(0.7);
+            z-index: 2;
+        }
+        .circle{
+            width: 60%;
+            height: 60%;
+            border-radius: 100%;
+            background-color: $white;
+            position: absolute;
+            z-index: 1;
+            top: 20%;
+            left: 20%;
+        }
+    }
+    &-content{
+        margin-top: 25px;
+        h4,p{
+            text-align: center;
+        }
+        h4{
+            @include font(700);
+            text-transform: capitalize;
+        }
+        p{
+            @include font(400);
+            margin-top: 8px;
+        }
+    }
+}
+@import 'header';
 @import 'footer';
 @import './pages-style/product';
+@import './pages-style/basket';
