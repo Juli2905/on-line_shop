@@ -459,9 +459,33 @@ footer .email p {
   text-align: center;
   margin-bottom: 20px;
 }
-footer .email .button {
-  width: 35%;
+footer .email .email-btn {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .email .email-btn .button {
+  width: 40%;
+  border-left: none;
+  border-right: none;
+  border-top: 1px solid #939393;
+  border-bottom: 1px solid #939393;
   padding: 5px;
+}
+footer .email .email-btn .envelope {
+  border-top: 1px solid #939393;
+  border-left: 1px solid #939393;
+  border-bottom: 1px solid #939393;
+  background-color: #fff;
+  padding: 5px 10px;
+}
+footer .email .email-btn .arrow {
+  background-color: #F44e31;
+  border-top: 1px solid #939393;
+  border-right: 1px solid #939393;
+  border-bottom: 1px solid #939393;
+  padding: 4px 5px;
 }
 footer .wallpaper {
   display: flex;
@@ -482,7 +506,7 @@ footer .wallpaper .cover img, footer .wallpaper .cover .content {
   object-fit: cover;
 }
 footer .info {
-  margin-bottom: 20px;
+  margin: 40px 0;
 }
 footer .info .wrapper {
   align-items: flex-start;
@@ -526,7 +550,7 @@ footer .info .wrapper .block {
 footer .info .wrapper .block h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  margin-bottom: 25px;
+  margin: 15px 0 20px 0;
 }
 footer .info .wrapper .block .container {
   display: flex;
@@ -535,7 +559,7 @@ footer .info .wrapper .block .container .box {
   width: 50%;
 }
 footer .info .wrapper .block .container .box p {
-  margin-bottom: 10px;
+  margin-bottom: 6px;
 }
 footer .info .wrapper .block .container .box p:hover {
   cursor: pointer;
@@ -547,7 +571,7 @@ footer .info .wrapper .contacts {
 footer .info .wrapper .contacts h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  margin-bottom: 25px;
+  margin: 15px 0 20px 0;
 }
 footer .info .wrapper .contacts ul {
   list-style: none;
@@ -557,7 +581,7 @@ footer .info .wrapper .contacts ul {
 footer .info .wrapper .contacts ul li .address {
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 footer .info .wrapper .contacts ul li .address p {
   margin-left: 10px;
@@ -831,9 +855,33 @@ footer .email p {
   text-align: center;
   margin-bottom: 20px;
 }
-footer .email .button {
-  width: 35%;
+footer .email .email-btn {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .email .email-btn .button {
+  width: 40%;
+  border-left: none;
+  border-right: none;
+  border-top: 1px solid #939393;
+  border-bottom: 1px solid #939393;
   padding: 5px;
+}
+footer .email .email-btn .envelope {
+  border-top: 1px solid #939393;
+  border-left: 1px solid #939393;
+  border-bottom: 1px solid #939393;
+  background-color: #fff;
+  padding: 5px 10px;
+}
+footer .email .email-btn .arrow {
+  background-color: #F44e31;
+  border-top: 1px solid #939393;
+  border-right: 1px solid #939393;
+  border-bottom: 1px solid #939393;
+  padding: 4px 5px;
 }
 footer .wallpaper {
   display: flex;
@@ -854,7 +902,7 @@ footer .wallpaper .cover img, footer .wallpaper .cover .content {
   object-fit: cover;
 }
 footer .info {
-  margin-bottom: 20px;
+  margin: 40px 0;
 }
 footer .info .wrapper {
   align-items: flex-start;
@@ -898,7 +946,7 @@ footer .info .wrapper .block {
 footer .info .wrapper .block h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  margin-bottom: 25px;
+  margin: 15px 0 20px 0;
 }
 footer .info .wrapper .block .container {
   display: flex;
@@ -907,7 +955,7 @@ footer .info .wrapper .block .container .box {
   width: 50%;
 }
 footer .info .wrapper .block .container .box p {
-  margin-bottom: 10px;
+  margin-bottom: 6px;
 }
 footer .info .wrapper .block .container .box p:hover {
   cursor: pointer;
@@ -919,7 +967,7 @@ footer .info .wrapper .contacts {
 footer .info .wrapper .contacts h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  margin-bottom: 25px;
+  margin: 15px 0 20px 0;
 }
 footer .info .wrapper .contacts ul {
   list-style: none;
@@ -929,7 +977,7 @@ footer .info .wrapper .contacts ul {
 footer .info .wrapper .contacts ul li .address {
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 footer .info .wrapper .contacts ul li .address p {
   margin-left: 10px;

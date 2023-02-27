@@ -17,10 +17,37 @@ footer{
             text-align: center;
             margin-bottom: 20px;
         }
-        .button{
-            width: 35%;
-            padding: 5px;
-           
+        .email-btn{
+            width: 70%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .button{
+                width: 40%;
+                border-left: none;
+                border-right: none;
+                border-top: 1px solid $gray;
+                border-bottom: 1px solid $gray;
+                padding: 5px;
+            }
+            .envelope{
+                border-top: 1px solid $gray;
+                border-left: 1px solid $gray;
+                border-bottom: 1px solid $gray;
+                background-color: $white;
+                padding: 5px 10px;
+                
+            }
+            .arrow{
+                background-color: $orange;
+                border-top: 1px solid $gray;
+                border-right: 1px solid $gray;
+                border-bottom: 1px solid $gray;
+                padding: 4px 5px;
+                
+            }
+            
+
         }
     }
     .wallpaper{
@@ -34,7 +61,7 @@ footer{
         }
     }
     .info{
-     margin-bottom: 20px;
+     margin: 40px 0;
         .wrapper{
             @extend %container;
             align-items: flex-start;
@@ -78,14 +105,14 @@ footer{
                 width: 30%;
                 h3{
                     @include font(700);
-                    margin-bottom: 25px;
+                    margin: 15px 0 20px 0;
                 }
                 .container{
                     display: flex;
                     .box{
                         width: 50%;
                         p{
-                            margin-bottom: 10px;
+                            margin-bottom: 6px;
                             &:hover{
                                 cursor: pointer;
                             }
@@ -100,7 +127,7 @@ footer{
                 margin-bottom: 20px;
                 h3{
                     @include font(700);
-                    margin-bottom: 25px;
+                    margin: 15px 0 20px 0;
                 }
                 ul{
                     list-style: none;
@@ -110,7 +137,7 @@ footer{
                         .address{
                             display: flex;
                             align-items: center;
-                            margin-bottom: 10px;
+                            margin-bottom: 15px;
                             p{
                                 margin-left: 10px;
                             }
