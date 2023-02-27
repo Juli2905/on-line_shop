@@ -680,6 +680,7 @@ footer .text p {
   box-shadow: 0 0 6px 4px rgba(0, 0, 0, 0.05);
   padding: 25px;
   margin: 30px 0;
+  width: 93%;
 }
 .product .wrapper .product-info .card .counter-container {
   display: flex;
